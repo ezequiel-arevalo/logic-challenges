@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Meta Tags-->
+    <meta="keywords" content="HTML, CSS, JAVASCRIPT">
+    <meta="description" content="weight converter">
+    <meta="author" content="Ezequiel Thomas Arevalo">
+
+    <!--Title-->
+    <title>Weight Converter</title>
+
+    <!--Styles-->
+    <link rel="stylesheet" href="./src/css/styles.css">
+</head>
+<body>
+   
+	<main id="container">
+		<div class="card__container">
+			<header class="card__header">
+				<h1>Weight Converter</h1>
+			</header>
+			<div class="card__content">
+				<form action="#" method="get" id="form">
+					<label for="weight">Pounds:</label>
+					<input type="number" name="weight" id="weight" placeholder="Enter your weight number" required/>
+				</form>
+			</div>
+			<footer class="card__footer">
+				<p>Your weight in kg is: <span id="converted__weight"></span> kg!</p>
+			</footer>
+		</div>
+	</main>
+
+    <script src="./src/js/app.js"></script>
+</body>
+</html>
