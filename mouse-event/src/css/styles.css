@@ -1,0 +1,62 @@
+*,
+*::after,
+*::before
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body
+{
+	scroll-behavior: smooth;
+	background-color:#99fcff;
+	background-image:
+	radial-gradient(at 86% 49%, hsla(182,95%,75%,1) 0px, transparent 50%),
+	radial-gradient(at 35% 60%, hsla(267,63%,75%,1) 0px, transparent 50%),
+	radial-gradient(at 10% 42%, hsla(221,86%,61%,1) 0px, transparent 50%),
+	radial-gradient(at 14% 96%, hsla(179,91%,66%,1) 0px, transparent 50%),
+	radial-gradient(at 83% 80%, hsla(292,86%,66%,1) 0px, transparent 50%),
+	radial-gradient(at 56% 65%, hsla(158,69%,61%,1) 0px, transparent 50%);
+}
+
+#container
+{
+	width: 100%;
+	height: 100vh;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.principal__content
+{
+	padding: 15px;
+	width: 600px;
+	background-color: snow;
+	border-radius: 15px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	display: inherit;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.content__box
+{
+	border: 2px dashed black;
+	margin: 10px auto;
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+	display: grid;
+	place-content: center;
+}
+
+.content__box > span
+{
+	font-size: 1.2rem;
+}
+
