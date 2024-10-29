@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Meta Tags -->
+    <meta name="keywords" content="HTML, CSS, JAVASCRIPT">
+    <meta name="description" content="Tip Calculator Project">
+    <meta name="author" content="Ezequiel Thomas Arevalo">
+
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="./src/css/styles.css">
+
+    <!-- Title -->
+    <title>Tip Calculator</title>
+</head>
+<body>
+
+    <div id="card">
+        <header class="card__header">
+            <h1>Tip Calculator</h1>
+            <p>Enter the bill amount and tip percentage to calculate the total.</p>
+        </header>
+        <main class="card__content">
+            <form action="#" id="form">
+                <div class="form__row">
+                    <label for="billAmount">Bill Amount:</label>
+                    <input type="number" name="billAmount" id="billAmount" required>
+                </div>
+                <div class="form__row">
+                    <label for="tipPercentage">Tip Percentage:</label>
+                    <input type="number" name="tipPercentage" id="tipPercentage" required>
+                </div>
+
+                <button type="submit">Calculate</button>
+            </form>
+        </main>
+        <footer class="card__footer">
+            <p>Total: $<span class="tip__total">120.00</span></p>
+        </footer>
+    </div>
+    
+    <script src="./src/js/app.js"></script>
+</body>
+</html>
